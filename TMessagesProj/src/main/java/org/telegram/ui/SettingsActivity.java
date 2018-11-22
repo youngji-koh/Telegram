@@ -740,7 +740,7 @@ public class SettingsActivity extends BaseFragment implements NotificationCenter
 
         nameTextView = new TextView(context);
         nameTextView.setTextColor(Theme.getColor(Theme.key_profile_title));
-        nameTextView.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 18);
+        nameTextView.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 36);
         nameTextView.setLines(1);
         nameTextView.setMaxLines(1);
         nameTextView.setSingleLine(true);
@@ -753,7 +753,7 @@ public class SettingsActivity extends BaseFragment implements NotificationCenter
 
         onlineTextView = new TextView(context);
         onlineTextView.setTextColor(Theme.getColor(Theme.key_avatar_subtitleInProfileBlue));
-        onlineTextView.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 14);
+        onlineTextView.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 28);
         onlineTextView.setLines(1);
         onlineTextView.setMaxLines(1);
         onlineTextView.setSingleLine(true);
