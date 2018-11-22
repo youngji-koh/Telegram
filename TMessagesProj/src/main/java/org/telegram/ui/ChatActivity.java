@@ -4941,6 +4941,7 @@ public class ChatActivity extends BaseFragment implements NotificationCenter.Not
         return dialog != chatAttachAlert && super.dismissDialogOnPause(dialog);
     }
 
+    /*
     private void searchLinks(final CharSequence charSequence, final boolean force) {
         if (currentEncryptedChat != null && (MessagesController.getInstance(currentAccount).secretWebpagePreview == 0 || AndroidUtilities.getPeerLayerVersion(currentEncryptedChat.layer) < 46)) {
             return;
@@ -5094,7 +5095,7 @@ public class ChatActivity extends BaseFragment implements NotificationCenter.Not
             ConnectionsManager.getInstance(currentAccount).bindRequestToGuid(linkSearchRequestId, classGuid);
         });
     }
-
+    */
     private void forwardMessages(ArrayList<MessageObject> arrayList, boolean fromMyName) {
         if (arrayList == null || arrayList.isEmpty()) {
             return;
