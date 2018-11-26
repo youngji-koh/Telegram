@@ -79,7 +79,7 @@
         android:supportsRtl="false"
         tools:replace="android:supportsRtl">
 
-
+        <!-- 여기서부터 카카오 추가한 것 -->
         <activity
         android:name=".SampleLoginActivity">
         <intent-filter>
@@ -102,6 +102,7 @@
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
         </activity>
+        <!-- 여기까지 카카오 추가완료 한 것 -->
 
         <activity
             android:name="org.telegram.ui.LaunchActivity"
