@@ -8,14 +8,12 @@ buildscript {
     dependencies {
         classpath 'com.android.tools.build:gradle:3.1.4'
         classpath 'com.google.gms:google-services:4.0.2'
-        //카카오 추가
-        compile group: 'com.kakao.sdk', name: 'newtone', version: project.KAKAO_SPEECH_VERSION
     }
 
 }
 
 subprojects {
-    //카카오 추가
+
     repositories {
         mavenCentral()
         maven { url 'http://devrepo.kakao.com:8088/nexus/content/groups/public/' }

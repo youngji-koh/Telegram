@@ -252,3 +252,13 @@ android {
 }
 
 apply plugin: 'com.google.gms.google-services'
+
+
+//카카오 추가 코드 시작
+dependencies {
+//    compile 'com.kakao.sdk:newtone:6.0.1-SNAPSHOT'
+    compile group: 'com.kakao.sdk', name: 'newtone', version: project.KAKAO_SDK_VERSION
+
+}
+//카카오 추가 코드 끝
+
