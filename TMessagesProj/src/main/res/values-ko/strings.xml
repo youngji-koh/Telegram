@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    //카카오 app key 추가
+    <string name="kakao_app_key">c63f900123138ae35265697a9f9bb610 </string>
+
     <string name="AppName">텔레그램</string>
     <string name="AppNameBeta">텔레그램</string>
     <string name="LanguageName">한국어</string>
